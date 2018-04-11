@@ -58,18 +58,23 @@ npm --save-dev install eslint-plugin-react
 ```
 
 Изменить файл с настройками .eslintrc и добавить правила из плагина
+Настроить окружение (browser и node)
 ```
 {
-  parser: "babel-eslint",
+  "parser": "babel-eslint",
   "plugins": [
     "react"
   ],
   "rules": {},
-  "extends": ["eslint:recommended", "plugin:react/recommended"]
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+   "env": {
+     "browser": true,
+     "node": true
+   }
 }
 ```
 
-После того, как эти шаги были выполнены, необходимо выполнить команду
+После того, как эти шаги были выполнены, необходимо запустить команду
 ```
 npm run start
 ```
