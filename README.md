@@ -1,7 +1,7 @@
 # react-eslint
 Содержит пример минимальной конфигурации eslint для разработки на react.
 
-Для примера настройки eslint используется workspace, описанный здесь https://github.com/codyfet/react-workspace
+Для примера настройки eslint используется workspace, описанный здесь https://github.com/codyfet/react-workspace (router)
 
 Установка и настройка eslint.
 
