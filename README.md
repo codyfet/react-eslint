@@ -44,8 +44,8 @@ npm install --save-dev babel-eslint
 Установить в настройках .eslintrc опцию parser
 ```
 {
-  "parser": "babel-eslint",
-  "rules": {}
+    "parser": "babel-eslint",
+    "rules": {}
 }
 ```
 
@@ -61,16 +61,16 @@ npm --save-dev install eslint-plugin-react
 Настроить окружение (browser и node)
 ```
 {
-  "parser": "babel-eslint",
-  "plugins": [
-    "react"
-  ],
-  "rules": {},
-  "extends": ["eslint:recommended", "plugin:react/recommended"],
-   "env": {
-     "browser": true,
-     "node": true
-   }
+    "parser": "babel-eslint",
+    "plugins": [
+        "react"
+    ],
+    "rules": {},
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+     "env": {
+         "browser": true,
+         "node": true
+     }
 }
 ```
 
