@@ -3,7 +3,7 @@
 
 Для примера настройки eslint используется workspace, описанный здесь https://github.com/codyfet/react-workspace
 
-Усановка и настройка eslint.
+Установка и настройка eslint.
 
 Установить eslint
 ```
