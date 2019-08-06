@@ -59,6 +59,7 @@ npm --save-dev install eslint-plugin-react
 
 Изменить файл с настройками .eslintrc и добавить правила из плагина
 Настроить окружение (browser и node)
+Настроить применение дефолтных (рекомендуемых) правил 
 ```
 {
     "parser": "babel-eslint",
@@ -66,7 +67,10 @@ npm --save-dev install eslint-plugin-react
         "react"
     ],
     "rules": {},
-    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+     ],
      "env": {
          "browser": true,
          "node": true
