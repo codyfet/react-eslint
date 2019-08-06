@@ -78,6 +78,15 @@ npm --save-dev install eslint-plugin-react
 }
 ```
 
+UPDATE: По желанию можно добавить в ```package.json``` скрипты для запуска eslint (в том числе в режиме автоматического исправления проблем)
+```
+  "scripts": {
+    ...
+    "eslint": "eslint **/*.js",
+    "eslint-fix": "eslint **/*.js --fix"
+  },
+```
+
 После того, как эти шаги были выполнены, необходимо запустить команду
 ```
 npm run start
